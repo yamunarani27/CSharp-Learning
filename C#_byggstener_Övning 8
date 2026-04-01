@@ -1,0 +1,11 @@
+Console.Write("Änge ett tal? ");
+int tal= int.Parse(Console.ReadLine());
+
+int tal += 1;
+int tal *= 2;
+int tal -= 6;
+int tal /= 2;
+int tal += 3;
+int tal -= talet;
+
+Console.WriteLine($"Tal är {tal}");
