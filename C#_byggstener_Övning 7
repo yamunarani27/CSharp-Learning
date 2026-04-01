@@ -1,0 +1,10 @@
+Console.Write("Änge ditt namn: ");
+String namn = Console.ReadLine();
+
+Console.Write("Änge ditt Telefon: ");
+String telenummer = Console.ReadLine();
+
+Console.Write("Antal Email: ");
+String email = Console.ReadLine();
+
+Console.WriteLine($"Vi har tagit emot uppgifter \n Name:{namn} \n Telefon: {telenummer} \n Email:{email}");
