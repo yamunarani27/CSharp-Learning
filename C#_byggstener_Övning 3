@@ -1,0 +1,7 @@
+int tidisec = 7456;
+int timmartal = tidisec / 3600;
+int minutertal = (tidisec % 3600) / 60;
+int sekunderkvar =(tidisec % 3600) % 60;
+
+
+Console.WriteLine("{0} timmar  {1} minuter och {2} sekunder", timmartal, minutertal, sekunderkvar);
