@@ -1,0 +1,10 @@
+Console.Write("Änge ditt förnamn: ");
+String Fnamn = Console.ReadLine();
+
+Console.Write("Änge ditt efternamn: ");
+String Enamn = Console.ReadLine();
+
+Console.Write("Antal barn: ");
+int barn =int.Parse (Console.ReadLine());
+
+Console.WriteLine("{0} {1} har {2} barn", Fnamn, Enamn, barn);
