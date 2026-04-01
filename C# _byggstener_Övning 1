@@ -1,0 +1,4 @@
+string personName = "Yamunarani";
+int personAge = 30;
+
+Console.WriteLine(2025+personAge + " fyller " + personName +" 50 år");
