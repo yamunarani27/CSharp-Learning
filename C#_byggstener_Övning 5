@@ -1,0 +1,12 @@
+int personnumnner = 9191;
+int sistanummer = personnumnner % 10;
+int nytall = personnumnner / 10;
+int nästasistatal = nytall % 10;
+
+int kön = nästasistatal % 2;
+bool könkvinna = (kön == 0);
+bool könman = (kön != 0);
+
+Console.WriteLine("Personnummer {0} hör till!", personnumnner);
+Console.WriteLine("Man : {0}", könman);
+Console.WriteLine("Kvinna : {0}", könkvinna);
