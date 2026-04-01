@@ -1,0 +1,6 @@
+int fyrtal = 2545;
+int lasttal = fyrtal % 10;
+int nytal = fyrtal / 10;
+int sistatal = nytal % 10;
+
+Console.WriteLine("Summan av sista och näst sista talen är "+ (lasttal+sistatal));
