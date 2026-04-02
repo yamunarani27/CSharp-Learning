@@ -1,0 +1,16 @@
+Marcela är ute och kör bil. Tanken rymmer 50 l. Priset per liter är 14.50 kronor. Skriv ett program som frågar efter hur mycket bensin det finns i tanken. 
+Om mängden är mindre än 10 liter ska programmet presentera en utskrift, där det framgår att hon bör tanka, 
+hur mycket hon kan fylla på och vad det kostar att få full tank. Är mängden minst 10 liter innehåller utskriften bara en uppmaning att köra vidare. 
+
+Console.Write("Hur mycket bensin det finns i tanken? ");
+int bensinkvar = int.Parse(Console.ReadLine());
+float prisperliter = 14.50f;
+if(bensinkvar < 10 )
+{
+    Console.WriteLine($"Tanka {50 - bensinkvar} liter.");
+    Console.WriteLine($"Det kostar {(50 - bensinkvar)*prisperliter} kr.");
+}
+else
+{
+    Console.WriteLine("Förtsätta körning");
+}
