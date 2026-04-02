@@ -1,0 +1,21 @@
+const string username = "petter";
+const string password = "abc123";
+String meddelande = " ";
+
+Console.Write("Ange ditt användernamn: ");
+String användarnamn = Console.ReadLine();
+Console.Write("Ange ditt lösenord: ");
+String lösenord = Console.ReadLine();
+
+if ((användarnamn == username ) && (lösenord == password))
+    {
+    meddelande = $" Hi {användarnamn} !You have successfully logged in.";
+    }
+else
+    {
+    meddelande = "Login attempt failed";
+    }
+Console.WriteLine(meddelande);
+
+    
+
