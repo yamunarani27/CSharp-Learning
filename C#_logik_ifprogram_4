@@ -1,0 +1,32 @@
+ett enkelt miniräknarprogram. Programmet läser in två flyttal och ett räknesätt (+ - * /)
+
+Console.Write("Ange tal1:");
+int tal1 = int.Parse(Console.ReadLine());
+
+Console.Write("Ange tal2:");
+int tal2 = int.Parse(Console.ReadLine());
+
+Console.Write("Ange ett räknesätt (+ - * /):");
+String räknesätt= Console.ReadLine();
+
+
+if (räknesätt == "+") 
+{
+    Console.WriteLine($"Addition : {tal1} + {tal2} = {tal1 + tal2}");
+}
+else if (räknesätt == "-")
+{
+    Console.WriteLine($"Subraction : {tal1} - {tal2} = {tal1 - tal2}");
+}
+else if (räknesätt == "*")
+{
+    Console.WriteLine($"Multiplication : {tal1} * {tal2} = {tal1 * tal2}");
+}
+else if (räknesätt == "/")
+{
+    Console.WriteLine($"division : {tal1} / {tal2} = {tal1 / tal2}");
+}
+else
+{
+    Console.WriteLine("Okänt räknesätt");
+}
